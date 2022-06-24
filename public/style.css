@@ -1,0 +1,156 @@
+*{
+margin: 0;
+padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', sans-serif
+
+  
+}
+header{
+  height: 15vh;
+display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #14161a;
+padding: 10px 0;
+  
+}
+.headerTitle{
+font-size: 50px;
+color: #956afb
+
+  
+}
+.titulo{
+font-size: 70px;
+color:#889ABD;
+
+}
+.container{
+  min-height: 85vh;
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+column-gap: 8px;
+background-color: #252A33;
+  
+}
+
+.inserir{
+
+background-color: #5A667D;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+transition:500ms;
+  color: white;
+  margin-top: 10px;
+}
+
+.inserir:hover{
+cursor: pointer;
+background-color: #3d4452;
+  transition:500ms;
+  transform: scale(1.1)
+  
+}
+
+.inputDiv{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+  
+}
+.label{
+color: #889ABD;
+  font-weight: 500;
+  font-size: 40px;
+
+  
+}
+
+.input{
+border-radius: 2rem;
+  background: transparent;
+border: 2px solid #956afb;
+outline: 0;
+  height: 50%;
+  margin-top:10px;
+  padding-left: 10px;
+  color: white;
+  
+}
+
+.input:focus{
+outline: 0;
+  border: 2px solid #956afb;
+}
+
+.lista_de_tarefas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+list-style: none;
+  margin-top: 20px;
+   width: 100%;
+}
+
+.lista_de_tarefas li{
+background-color:#14161a;
+color: white;
+  padding: 10px 10px;
+  border-radius: 1rem;
+font-size: 20px;
+  margin-bottom: 10px;
+  width: 70%;
+ transition: 500ms
+}
+
+.lista_de_tarefas li:hover{
+transform: scale(1.1);
+  transition: 500ms
+  
+}
+
+.lista_de_tarefas li button{
+background-color: #4f13be;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+transition: 500ms
+  
+}
+
+.lista_de_tarefas li button:hover{
+background-color: #380f85;
+ transform: scale(1.1);
+  cursor: pointer;
+  transition: 500ms
+  
+
+  
+}
+
+
+::-webkit-scrollbar{
+
+           width:12px;
+        }
+        ::-webkit-scrollbar-track{
+            background-color: #b092f7;
+          
+
+
+        }
+
+        ::-webkit-scrollbar-thumb{
+
+            background-color: #190d35;
+          
+
+
+        }
